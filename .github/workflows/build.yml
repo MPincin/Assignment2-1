@@ -15,4 +15,4 @@ jobs:
           java-version: '17'
           
       - name: build with maven
-        run: mvn verify
+        run: mvn install
