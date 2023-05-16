@@ -14,4 +14,4 @@ jobs:
           java-version: '17'
           
       - name: build
-        run: mvn package
+        run: mvn verify
