@@ -5,7 +5,9 @@
 
 package it.unipd.mtss;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
+
+import java.beans.Transient;
 
 import org.junit.Test;
 
@@ -21,5 +23,10 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+    }
+
+    @Test
+    public void testProva(){
+        assertEquals(App.prova(),1);
     }
 }
